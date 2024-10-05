@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(40, 41, 42) !important;
+    h1 {
+        &.header {
+            color: rgb(173, 172, 172);
+        }
+    }
+
+    .lobster-regular {
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .Card {
+        margin-bottom: 20px;
+    
+        img {
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+}
