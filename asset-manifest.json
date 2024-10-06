@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/board-game-tracker/static/css/main.a52a5d06.css",
-    "main.js": "/board-game-tracker/static/js/main.52f4451d.js",
+    "main.js": "/board-game-tracker/static/js/main.1771b523.js",
     "static/js/453.1e4af34b.chunk.js": "/board-game-tracker/static/js/453.1e4af34b.chunk.js",
     "index.html": "/board-game-tracker/index.html",
     "main.a52a5d06.css.map": "/board-game-tracker/static/css/main.a52a5d06.css.map",
-    "main.52f4451d.js.map": "/board-game-tracker/static/js/main.52f4451d.js.map",
+    "main.1771b523.js.map": "/board-game-tracker/static/js/main.1771b523.js.map",
     "453.1e4af34b.chunk.js.map": "/board-game-tracker/static/js/453.1e4af34b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a52a5d06.css",
-    "static/js/main.52f4451d.js"
+    "static/js/main.1771b523.js"
   ]
 }
