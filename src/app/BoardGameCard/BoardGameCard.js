@@ -29,7 +29,7 @@ const BoardGameCard = ({ game }) => {
       return (
         <div>
           <ImageCreditModal show={creditShow} setShow={setCreditShow} gameName={game.name} credit={game.image.credit}></ImageCreditModal>
-          <Card.Img variant="top" src={game.image.path} alt={game.name} style={{ maxHeight: '150px', objectFit: 'contain' }} />
+          <Card.Img variant="top" src={`${process.env.PUBLIC_URL}${game.image.path}`} alt={game.name} style={{ maxHeight: '150px', objectFit: 'contain' }} />
           <Card.Text className="mb-0 text-center">
             <small onClick={handleImageCreditClick} className="text-blue"><u>Image Credit</u></small>
           </Card.Text>

@@ -10,7 +10,7 @@ const App = () => {
 
   // Load the JSON data
   useEffect(() => {
-    fetch("./boardgames.json")
+    fetch(`${process.env.PUBLIC_URL}/boardgames.json`)
       .then((response) => response.json())
       .then((data) => setGames(data));
   }, []);
